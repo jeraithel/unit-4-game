@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Justin's Crystal Collector Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+
+<body>
+    <h2>Crystals Collector!</h2>
+    <div id="instructions">
+        <h4>Instructions</h4>
+        <p>Each crystal is worth 1 to 12 points</p>
+        <p>Click the crystals to add up to the Goal and you win.</p>
+        <p>Go over the Goal and you lose.</p>
+        <p>The Goal and the value of the crystals change each game</p>
+        <h3>Good Luck, Austin! (or should I say Sean?)</h3>
+    </div>
+    <div id="numberGoal">1</div>
+    <div id="results">
+        <div>Wins:<span id="wins">0</span></div> 
+        <div>Losses:<span id="losses">0</span></div> 
+    </div>
+    <div id="crystals">
+        <img id="crystal0" class="crystal" src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/10/Arena_Crystal.png/revision/latest?cb=20150825214845"></img>
+        <img id="crystal1" class="crystal" src="https://vignette.wikia.nocookie.net/mgefanon/images/6/69/Kinetic_Crystal.jpg/revision/latest?cb=20150409231719"></img>
+        <img id="crystal2" class="crystal" src="https://images-na.ssl-images-amazon.com/images/I/418YIAgXOcL.jpg"></img>
+        <img id="crystal3" class="crystal" src="https://smhttp-ssl-64693.nexcesscdn.net/media/wysiwyg/about-gemstones/blueapatite-glossary.jpg"></img>
+    </div>
+    <div id="numberScore">Your Score Is: <span id="score"></span></div>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
